@@ -1,0 +1,25 @@
+.addContact {
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #ffa39e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact {
+    background-color: #ff5a25;
+    height: 100px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputPhone{
+    /*-webkit-appearance: none;*/
+    margin: 0;
+}
+
+.error {
+    position: absolute;
+}

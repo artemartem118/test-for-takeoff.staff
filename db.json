@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "email": "123@mail.com",
+      "password": "$2a$10$p5P/KSjT6NphsusXooDScevT33PQHuSWRT0T.nSRvm2kcRYN48mpy",
+      "id": 1
+    },
+    {
+      "email": "12345@mail.com",
+      "password": "$2a$10$f2DUXlenPQVd/BoLGadVRukWU6yChcWCvlT2a5I/WUg8bR9QisnIi",
+      "id": 2
+    },
+    {
+      "email": "miraclemarvel118@gmail.com",
+      "password": "$2a$10$lKVEaqFXqdZIhVcsOLbrAu52UCBbv5rmdVbOf0wNmkUo0AcNR1Z.e",
+      "id": 3
+    },
+    {
+      "email": "miraclearvel118@gmail.co",
+      "password": "$2a$10$gUOwky0rNqv0pkgJjaFrtu1WyfIibGEYjiOi2XWSdYf2895LBMy4O",
+      "id": 4
+    },
+    {
+      "email": "mawdvel118@gmail.com",
+      "password": "$2a$10$/.cP4kkTQvdjkAF.09pRTuehh.GfsDuOPKC7uzLnQUbrkK9uY6LPW",
+      "id": 5
+    },
+    {
+      "email": "miawdawdel118@gmail.com",
+      "password": "$2a$10$4cAht8o0NOW9/az5ZMpnZe/djBgn00zedmFq5p3h7TluNZdW1kAZy",
+      "id": 6
+    },
+    {
+      "email": "awdarvel118@gmail.com",
+      "password": "$2a$10$CLmHIMVPqauKGuuNzZYlA.PsVeo3PlWolWt5GyKZO5hvYbDVmxxJO",
+      "id": 7
+    },
+    {
+      "email": "awdawdawdawdarvel118@gmail.com",
+      "password": "$2a$10$xc4CwZmrOQqFXciu5JTR4eXjP7HBrMRBklDirnreYGqf3p2iQBK8a",
+      "id": 8
+    },
+    {
+      "email": "awdddddvel118@gmail.com",
+      "password": "$2a$10$4z7FmiDZpY3KCcy0B2.09.KA9h8YWpkKHep4wep1Nfkiu75SyEcyG",
+      "id": 9
+    },
+    {
+      "email": "wdawdawdawdael118@gmail.com",
+      "password": "$2a$10$rzZ.gsew5qQdCf7Eq4ipFeC24NwsSmBWZqOl0z32kHSAvCRO4PrI.",
+      "id": 10
+    },
+    {
+      "email": "awdawdawdawdl118@gmail.com",
+      "password": "$2a$10$H8QG37o1F9HD2GZTcmPeRuoFS7XSSu0EsZvOSFEhQhFhXhRr1c9UK",
+      "id": 11
+    },
+    {
+      "email": "awdawdawdawdawdel118@gmail.com",
+      "password": "$2a$10$Z1JJhVZw/nZKP/G95kwEVeBZMjoYnhZj0fB12iKn9b/mjaibujEp6",
+      "id": 12
+    },
+    {
+      "email": "awdawdawdawddddd18@gmail.com",
+      "password": "$2a$10$6Q4vBZ22EAL/.M4T0blbtekSUd9fXVGW/MgXJyBiJGOw9037MSAqq",
+      "id": 13
+    }
+  ],
+  "contacts": [
+    {
+      "name": "testName3",
+      "number": "12365485",
+      "id": 3
+    },
+    {
+      "name": "testName4",
+      "number": "12365485",
+      "id": 4
+    },
+    {
+      "name": "testName5",
+      "number": "12365485",
+      "id": 5
+    },
+    {
+      "name": "testName6",
+      "number": "12365485",
+      "id": 6
+    },
+    {
+      "name": "awd",
+      "number": "awd",
+      "id": 1594776118585
+    },
+    {
+      "name": "wdawd",
+      "number": "awdawd",
+      "id": 1594776657983
+    },
+    {
+      "name": "wdawd",
+      "number": "123123",
+      "id": 1594776661955
+    },
+    {
+      "name": "wdawd",
+      "number": "awdawd",
+      "id": 1594776670818
+    },
+    {
+      "name": "awdawd",
+      "number": "123123474535235",
+      "id": 1594777017980
+    },
+    {
+      "name": "awdawd",
+      "number": "123123474535235",
+      "id": 1594777018616
+    },
+    {
+      "name": "wdawd",
+      "number": "123123",
+      "id": 1594777264528
+    }
+  ]
+}
