@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { useForm } from 'react-hook-form'
+import { useSelector } from 'react-redux'
 
 const SignForm = ( { onSubmit, btn, statusSignUp } ) => {
     const { register, handleSubmit, errors } = useForm()
-
     const required = 'Это поля обязательое'
 
     const [ login, setLogin ] = useState('')
@@ -13,7 +13,7 @@ const SignForm = ( { onSubmit, btn, statusSignUp } ) => {
         <form onSubmit={ handleSubmit(onSubmit) }>
             <div className="form">
                 <div className="form__email">
-                    <input value={ login } onChange={ ( e ) => setLogin(e.currentTarget.value) } type='text'
+                    <input value={ login } onChange={ ( e ) => setLogin(e.currentTarget.value) } type='email'
                            name='email' placeholder='Логин' ref={ register({ required }) }/>
                     { errors.email && <div>{ errors.email.message }</div> }
                 </div>

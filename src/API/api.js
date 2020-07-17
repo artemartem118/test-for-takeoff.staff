@@ -10,7 +10,8 @@ export const authAPI = {
             .catch(e => e.message)
     },
     signin( loginData ) {
-        return instance.post('/signin', loginData)
+        return  instance.post('/signin', loginData)
+            .catch(e => e.message)
     }
 }
 export const contactsAPI = {

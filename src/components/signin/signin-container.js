@@ -5,14 +5,15 @@ import { signinUser } from '../../redux/auth-reducer'
 
 import Sign from '../common/sign/sign'
 
-const SigninContainer = ( { isAuth, signinUser } ) => {
+const SigninContainer = ( { isAuth, signinUser, statusSignUp } ) => {
     return (
-        <Sign btn={ 'Войти' } signHandler={ signinUser } isAuth={ isAuth }/>
+        <Sign statusSignUp={ statusSignUp } btn={ 'Войти' } signHandler={ signinUser } isAuth={ isAuth }/>
     )
 }
 
 const MapStateToProps = state => ({
-    isAuth: state.auth.isAuth
+    isAuth: state.auth.isAuth,
+    statusSignUp: state.auth.statusSignUp
 })
 
 export default connect(MapStateToProps, { signinUser })(SigninContainer)

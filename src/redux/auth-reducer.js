@@ -44,10 +44,13 @@ export const signinUser = ( { email, password } ) => async ( dispatch ) => {
     if ( loginUserData.status === 200 ) {
         dispatch(setUserData(email, true))
     }
+    if ( typeof loginUserData === 'string' ) {
+        dispatch(setStatusSignUp('Что-то пошло не так'))
+        setTimeout(() => dispatch(setStatusSignUp('')), 2000)
+    }
 }
 
 export const signupUser = ( { email, password } ) => async ( dispatch ) => {
-
     const loginUserData = await authAPI.signup({ email, password })
     if ( loginUserData.status === 201 ) {
         dispatch(setStatusSignUp('Вы зарегестрировались'))
