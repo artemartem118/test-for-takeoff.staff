@@ -9,17 +9,28 @@
 
 .contact {
     background-color: #ff5a25;
+    position: relative;
     height: 100px;
     margin-bottom: 10px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-}
-.inputPhone{
-    /*-webkit-appearance: none;*/
-    margin: 0;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .error {
     position: absolute;
+}
+.editInput {
+    position: relative;
+}
+.errorEdit {
+    position: absolute;
+    right: -100%;
+}
+.findWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }

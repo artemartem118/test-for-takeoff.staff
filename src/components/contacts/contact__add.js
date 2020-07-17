@@ -13,7 +13,7 @@ const AddContact = ( { onSubmit } ) => {
     const [ number, setNumber ] = useState('')
 
     return (
-        <form onSubmit={ handleSubmit(onSubmit) }>
+        <form onSubmit={ handleSubmit(onSubmit.bind(null, setName, setNumber)) }>
             <div className={ styles.addContact }>
                 <div><b>Имя </b>
                     <input ref={ register({ required }) } value={ name }

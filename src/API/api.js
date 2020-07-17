@@ -22,6 +22,9 @@ export const contactsAPI = {
     },
     postContact(data) {
         return instance.post('/contacts', data)
+    },
+    putContact( id, data ) {
+        return instance.put('/contacts/' + id, data)
     }
 
 }

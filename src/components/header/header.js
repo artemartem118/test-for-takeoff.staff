@@ -1,11 +1,10 @@
 import React from 'react'
-import cn from 'classnames'
 import styles from './header.module.css'
 
 const Header = ( { signOutUser, isAuth, email, redirect } ) => {
 
     return (
-        <div className={ cn(styles.header, 'wrapper') }>
+        <div className={ `${styles.header} wrapper` }>
             <div>Личный кабинет</div>
             <div>
                 { !isAuth && <div>

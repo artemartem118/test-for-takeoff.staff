@@ -5,7 +5,7 @@ const STATUS_SIGN_UP = 'auth/STATUS_SIGN_UP'
 
 const initialState = {
     email: null,
-    isAuth: true,
+    isAuth: false,
     statusSignUp: ''
 }
 
@@ -49,7 +49,6 @@ export const signinUser = ( { email, password } ) => async ( dispatch ) => {
 export const signupUser = ( { email, password } ) => async ( dispatch ) => {
 
     const loginUserData = await authAPI.signup({ email, password })
-    console.log(loginUserData)
     if ( loginUserData.status === 201 ) {
         dispatch(setStatusSignUp('Вы зарегестрировались'))
         setTimeout(() => dispatch(setStatusSignUp('')), 2000)
